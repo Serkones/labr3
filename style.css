@@ -1,0 +1,120 @@
+.sun {
+    width: 40%;
+    margin-top: 40px;
+    margin-left: 200px;
+    z-index: 200;
+    animation: orbitSun 15s infinite linear;
+}
+
+.mercury {
+    width: 4%;
+    margin-left: -290px;
+    margin-bottom: 230px;
+    animation: orbitMercury 5s infinite linear;
+}
+
+.venus {
+    width: 6%;
+    margin-bottom: 215px;
+    margin-left: -30px;
+    animation: orbitVenus 6s infinite linear;
+}
+
+.earth {
+    width: 8%;
+    margin-bottom: 200px;
+    margin-left: -60px;
+    animation: orbitEarth 7s linear infinite;
+}
+
+.mars {
+    width: 7%;
+    margin-bottom: 203px;
+    margin-left: -20px;
+    animation: orbitMars 8s linear infinite;
+}
+
+.jupiter {
+    width: 11%;
+    margin-bottom: 140px;
+    margin-left: -80px;
+    animation: orbitJupiter 9s linear infinite;
+}
+
+.sun:hover {
+    animation: sunOp 3s linear infinite alternate;
+}
+
+@keyframes sunOp {
+    from {
+        opacity: 100;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes orbitSun {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes orbitJupiter {
+    from {
+        transform: rotate(0deg) translateX(610px) rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg) translateX(610px) rotate(360deg);
+    }
+}
+
+@keyframes orbitMars {
+    from {
+        transform: rotate(0deg) translateX(530px) rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg) translateX(530px) rotate(360deg);
+    }
+}
+
+@keyframes orbitEarth {
+    from {
+        transform: rotate(0deg) translateX(480px) rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg) translateX(480px) rotate(360deg);
+    }
+}
+
+@keyframes orbitVenus {
+    from {
+        transform: rotate(0deg) translateX(350px) rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg) translateX(350px) rotate(360deg);
+    }
+}
+
+@keyframes orbitMercury {
+    from {
+        transform: rotate(0deg) translateX(290px) rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg) translateX(290px) rotate(360deg);
+    }
+}
+
+body {
+    background-color: black;
+}

@@ -48,10 +48,12 @@
 @keyframes sunOp {
     from {
         opacity: 100;
+        transform: scale(1);
     }
 
     to {
         opacity: 0;
+        transform: scale(0.5);
     }
 }
 

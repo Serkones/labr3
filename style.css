@@ -10,6 +10,8 @@
     width: 4%;
     margin-left: -290px;
     margin-bottom: 230px;
+    box-shadow:  80px 0 15px 10px black;
+    border-radius: 100px;
     animation: orbitMercury 5s infinite linear;
 }
 
@@ -17,6 +19,8 @@
     width: 6%;
     margin-bottom: 215px;
     margin-left: -30px;
+    box-shadow:  100px 0 15px 10px black;
+    border-radius: 100px;
     animation: orbitVenus 6s infinite linear;
 }
 
@@ -24,6 +28,8 @@
     width: 8%;
     margin-bottom: 200px;
     margin-left: -30px;
+    box-shadow:  130px 0 15px 10px black;
+    border-radius: 100px;
     animation: orbitEarth 7s linear infinite;
 }
 
@@ -31,6 +37,8 @@
     width: 7%;
     margin-bottom: 203px;
     margin-left: -20px;
+    box-shadow:  110px 0 10px 10px black;
+    border-radius: 100px;
     animation: orbitMars 8s linear infinite;
 }
 
@@ -38,6 +46,8 @@
     width: 11%;
     margin-bottom: 140px;
     margin-left: -80px;
+    box-shadow:  170px 0 10px 10px black;
+    border-radius: 100px;
     animation: orbitJupiter 9s linear infinite;
 }
 
@@ -69,54 +79,55 @@
 
 @keyframes orbitJupiter {
     from {
-        transform: rotate(0deg) translateX(570px) rotate(0deg);
+        transform: rotate(0deg) translateX(570px);
     }
 
     to {
-        transform: rotate(360deg) translateX(570px) rotate(360deg);
+        transform: rotate(360deg) translateX(570px);
     }
 }
 
 @keyframes orbitMars {
     from {
-        transform: rotate(0deg) translateX(480px) rotate(0deg);
+        transform: rotate(0deg) translateX(480px);
     }
 
     to {
-        transform: rotate(360deg) translateX(480px) rotate(360deg);
+        transform: rotate(360deg) translateX(480px);
     }
 }
 
 @keyframes orbitEarth {
     from {
-        transform: rotate(0deg) translateX(420px) rotate(0deg);
+        transform: rotate(0deg) translateX(420px);
     }
 
     to {
-        transform: rotate(360deg) translateX(420px) rotate(360deg);
+        transform: rotate(360deg) translateX(420px);
     }
 }
 
 @keyframes orbitVenus {
     from {
-        transform: rotate(0deg) translateX(350px) rotate(0deg);
+        transform: rotate(0deg) translateX(350px);
     }
 
     to {
-        transform: rotate(360deg) translateX(350px) rotate(360deg);
+        transform: rotate(360deg) translateX(350px);
     }
 }
 
 @keyframes orbitMercury {
     from {
-        transform: rotate(0deg) translateX(290px) rotate(0deg);
+        transform: rotate(0deg) translateX(290px);
     }
 
     to {
-        transform: rotate(360deg) translateX(290px) rotate(360deg);
+        transform: rotate(360deg) translateX(290px);
     }
 }
 
 body {
-    background-color: black;
+    background-color: #eeeeee;
+    overflow: hidden;
 }

@@ -1,0 +1,49 @@
+body {
+	background: #1c1e22;
+	color: #fff;
+}
+.l-grid {
+	display: grid;
+}
+
+.l-grid--XxX {
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-template-rows: repeat(8, minmax(200px, 1fr));
+}
+
+.l-span-column-2 {
+	grid-column-start: span 2;
+}
+
+.l-span-row-2 {
+	grid-row-start: span 2;
+}
+
+.red {
+	background: red;
+}
+
+.green {
+	background: green;
+}
+
+.black {
+	background: black;
+}
+
+.grey {
+	background: grey;
+}
+
+.blue {
+	background: blue;
+}
+
+.white {
+	background: white;
+}
+
+.orange {
+    background: orange;
+}
+

@@ -55,6 +55,27 @@
     animation: sunOp 3s ease-in-out infinite alternate;
 }
 
+.commet {
+    width: 20%;
+    position: absolute;
+    z-index: 200;
+    animation: commetRun 5s linear  infinite both;
+
+}
+
+
+@keyframes commetRun {
+    from {
+        right: -70%;
+        top: -50%;
+    }
+
+    to {
+        top: 115%;
+        right: 100%;
+    }
+}
+
 @keyframes sunOp {
     from {
         opacity: 100;
